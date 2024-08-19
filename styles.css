@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1DB954;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.library {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.library h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#track-list {
+    list-style: none;
+}
+
+#track-list li {
+    background-color: #333;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#track-list li:hover {
+    background-color: #444;
+}
+
+.music-player {
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.album-cover img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+.controls {
+    margin: 1rem 0;
+}
+
+.controls button {
+    background-color: #1DB954;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #17a249;
+}
+
+.track-info {
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #111;
+    padding: 1rem;
+    text-align: center;
+}
